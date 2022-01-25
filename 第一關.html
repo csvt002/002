@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>今年是哪一年</title>
+</head>
+<body>
+    <p>今年是西元幾年</p>
+	<input type="text" id="candy">
+    <input type="button" value="確認" onclick="judgecandy()">
+    <script>
+        function judgecandy(){
+            var text=document.getElementById("candy").value;
+            if(text=="2022"){
+                alert("答對了");
+                window.location="002.html";
+            }
+            else{
+                alert("答錯了");
+            }
+        }
+    </script>
+</body>
+</html>
